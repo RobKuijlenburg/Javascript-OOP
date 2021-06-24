@@ -44,7 +44,7 @@ class Circle extends Shape {
 }
 
 
-class Square extends Shape{
+class Square extends Shape {
     constructor(size, color, name) {
         super(color, name);
         this._size = size;
@@ -63,7 +63,7 @@ class Square extends Shape{
     }
 }
 
-class Rectangle extends Shape{
+class Rectangle extends Shape {
     constructor(width, height, color, name) {
         super(color, name);
         this._width = width;
