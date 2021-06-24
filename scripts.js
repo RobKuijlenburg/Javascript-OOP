@@ -7,6 +7,7 @@ const getSquare3 = document.getElementById('square3');
 const getRect1 = document.getElementById('rect1');
 const getRect2 = document.getElementById('rect2');
 const getRect3 = document.getElementById('rect3');
+const getName = document.getElementById('nameC');
 
 class Shape {
     constructor(color, name) {
@@ -111,6 +112,7 @@ function println() {
     getSquare1.innerHTML = square1.area;
     getSquare2.innerHTML = square2.area;
     getSquare3.innerHTML = square3.area;
+    getName.innerHTML = circle1.name;
 }
 
 println();
