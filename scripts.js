@@ -1,3 +1,5 @@
+"use strict";
+
 const getCircle1 = document.getElementById('circle1');
 const getCircle2 = document.getElementById('circle2');
 const getCircle3 = document.getElementById('circle3');
